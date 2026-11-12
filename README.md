@@ -4,7 +4,7 @@ Supporting materials for:
 
 > Grover et al. *Supporting Shared Situation Awareness With Machine-Learning Risk Prediction in the Pediatric Intensive Care Unit: A Qualitative Study of PICU-Aware.* 
 
-The study evaluated PICU-Aware, a clinician-facing interface for the PICU Warning Index (P-WIN), a machine-learning model that predicts critical deterioration in the pediatric intensive care unit. Transcripts from 11 interviews and 6 focus groups were analyzed with a codebook thematic analysis. A large language model (LLM) pre-coded the 15 non-seed transcripts for human review. Its codes were validated against a blinded human reference standard on a 225-excerpt holdout.
+The study evaluated PICU-Aware, a clinician-facing interface for the PICU Warning Index (P-WIN), a machine-learning model that predicts critical deterioration in the pediatric intensive care unit. Transcripts from 11 interviews and 6 focus groups were analyzed with a codebook thematic analysis. A large language model (LLM) pre-coded the 15 transcripts (the ones not used for codebook development) for human review. Its codes were validated against a blinded human reference standard on a 225-excerpt holdout.
 
 This repository contains the prompt used for LLM pre-coding and the code that reproduces the validation results (Supplementary Table S5).
 
@@ -58,9 +58,10 @@ Data availability: the input files are not included in this repository. Transcri
 
 If you use the prompt or code, please cite the paper above.
 
-## License
-
-[Code: MIT License. Prompt text: CC BY 4.0. Add a `LICENSE` file to match.]
+## License and citation
+Code is released under the MIT License (`LICENSE`). The LLM coding prompt is
+released under CC BY 4.0 (`LICENSE-PROMPT.md`). If you use either, please cite
+the paper (see `CITATION.cff` or the "Cite this repository" button).
 
 ## Contact
 
